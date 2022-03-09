@@ -1,0 +1,99 @@
+{
+  "ads": [
+    {
+      "id": 6,
+      "title": "Voiture à vendre",
+      "description": "Très bon état\ncontrôle technique ok",
+      "slug": "voiture-a-vendre",
+      "phone_number": "0633221144",
+      "ad_sub_category": {
+        "id": 3,
+        "name": "Voitures",
+        "slug": "voitures",
+        "ad_category": 1,
+        "ad": 6,
+        "created_at": "2022-02-28T09:56:36.844Z",
+        "updated_at": "2022-03-01T23:12:41.282Z"
+      },
+      "created_at": "2022-03-01T23:06:08.521Z",
+      "updated_at": "2022-03-01T23:12:41.317Z",
+      "image": "https://www.challenges.fr/assets/img/2018/08/27/cover-r4x3w1000-5b84072224873-pbc18-conference-09-jpg.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Chaussures à vendre",
+      "description": "Très bon état , disponible de suite",
+      "slug": "chaussures-a-vendre",
+      "phone_number": "0633221144",
+      "ad_sub_category": {
+        "id": 10,
+        "name": "vêtements, Chaussures",
+        "slug": "vetements-chaussures",
+        "ad_category": 4,
+        "ad": 7,
+        "created_at": "2022-03-01T23:08:52.243Z",
+        "updated_at": "2022-03-01T23:12:51.949Z"
+      },
+      "created_at": "2022-03-01T23:07:14.335Z",
+      "updated_at": "2022-03-01T23:12:51.973Z",
+      "image": "https://www.finsbury-shoes.com/4925-medium_default/richelieu-will-gold.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Recherche développeur web",
+      "description": "CDI à pourvoir de suite. 2 ans minimum d'expérience exigés.",
+      "slug": "recherche-developpeur-web",
+      "phone_number": "0633221144",
+      "ad_sub_category": {
+        "id": 9,
+        "name": "Informatique",
+        "slug": "informatique",
+        "ad_category": 3,
+        "ad": 8,
+        "created_at": "2022-02-28T09:59:27.715Z",
+        "updated_at": "2022-03-01T23:12:10.836Z"
+      },
+      "created_at": "2022-03-01T23:12:10.804Z",
+      "updated_at": "2022-03-01T23:12:10.867Z",
+      "image": "https://www.afjv.com/2020/01/200121-developpeur-web.jpg"
+    },
+    {
+      "id": 9,
+      "title": "Location appartement 300 m²",
+      "description": "Disponible immédiatement. Emplacement centre-ville. 2 chambres salon. Meublé.",
+      "slug": "location-appartement-300-m",
+      "phone_number": "0633221155",
+      "ad_sub_category": {
+        "id": 6,
+        "name": "Appartements",
+        "slug": "appartements",
+        "ad_category": 2,
+        "ad": 9,
+        "created_at": "2022-02-28T09:57:31.147Z",
+        "updated_at": "2022-03-01T23:14:40.420Z"
+      },
+      "created_at": "2022-03-01T23:14:40.388Z",
+      "updated_at": "2022-03-01T23:14:40.447Z",
+      "image": "https://img-fr-1.trovit.com/1b1v1-Y1UE1xF/1b1v1-Y1UE1xF.1_11.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Ordinateur à vendre",
+      "description": "Ordinateur neuf. Pas ouvert. Marque HP. Disponible de suite.",
+      "slug": "ordinateur-a-vendre",
+      "phone_number": "0722558899",
+      "ad_sub_category": {
+        "id": 11,
+        "name": "Electronique, Informatique",
+        "slug": "electronique-informatique",
+        "ad_category": 4,
+        "ad": 10,
+        "created_at": "2022-03-01T23:17:26.561Z",
+        "updated_at": "2022-03-01T23:17:43.312Z"
+      },
+      "created_at": "2022-03-01T23:16:26.602Z",
+      "updated_at": "2022-03-01T23:17:43.344Z",
+      "image": "https://m.media-amazon.com/images/I/711gbssFo4S._AC_SS450_.jpg"
+    }
+  ]
+}

@@ -14,3 +14,105 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.input{
+  @apply w-full p-2 bg-gray-100 border border-gray-300 focus:outline-none focus:ring-2 focus:ring-teal-100 focus:border focus:border-teal-500
+}
+
+.navbar{
+ @apply  flex items-center justify-between h-20 p-6 bg-indigo-500 shadow-sm
+}
+
+.ad-categories{
+  @apply justify-center grid-flow-col grid-rows-2 gap-6 mt-6 mb-6 md:grid
+}
+
+.not-found{
+  @apply mt-32 text-xl font-medium text-center
+}
+
+.ads-sub-categories{
+  @apply text-xl font-medium text-center py-10 
+}
+
+.card{
+  @apply grid grid-cols-5 gap-5 mb-3 m-auto  overflow-hidden bg-white border-2 rounded-lg cursor-pointer md:w-2/5 hover:shadow-md 
+}
+
+.card-image{
+  @apply col-span-2 mr-3
+}
+
+.card-text{
+@apply col-span-3 p-5
+}
+
+.ad-nav{
+ @apply mt-3 mb-8 text-blue-700
+}
+
+.ol{
+ @apply inline-flex p-0 list-none
+}
+
+
+.ad-title{
+  @apply my-4 text-2xl font-bold 
+}
+.ad-description{
+  @apply mb-3 text-xl font-semibold
+}
+
+.ad-card{
+  @apply p-2 my-3 bg-white border-2 rounded-md shadow-lg
+}
+.label-title{
+  @apply block mt-6 mb-2 text-gray-600 dark:text-gray-400
+}
+
+
+.submit-button{
+  @apply w-full p-2 mt-6 text-white bg-blue-600 rounded-md shadow-md hover:bg-blue-700
+}
+.create-ad-title{
+  @apply flex justify-center text-xl font-semibold text-gray-700
+}
+.create-ad-form{
+  @apply container justify-center max-w-md p-10 my-auto mt-4 text-center border-2 border-gray-200 bg-white
+}
+.add-button{
+@apply flex items-center h-10 px-3 text-indigo-500 bg-white rounded-lg shadow-lg hover:bg-gray-50
+}
+.phone{
+  @apply mb-1 text-gray-600 
+}
+.description{
+  @apply mb-10 text-gray-600 
+}
+.contact{
+  @apply mb-3 text-xl font-semibold
+}
+.li{
+  @apply flex items-center hover:underline
+}
+.footer {
+  margin: 100px 0 40px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+.footer p {
+  margin: 5px 0;
+}
+
+.search{
+  @apply focus:outline-none border border-gray-300 focus:ring-2 focus:ring-indigo-400 focus:ring-opacity-50 p-2 rounded-md shadow-md 
+}
+
+.search-result{
+  @apply text-center text-xl font-semibold mb-5
+}
+
+.ad-not-found{
+  @apply mb-5 text-xl font-semibold text-center
+}
