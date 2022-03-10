@@ -7,7 +7,7 @@ import nookies from "nookies";
 export default function Auth() {
   return (
     <Layout>
-      <div style={{ marginTop: 15 }}>
+      <div className="mt-10">
         <LoginComponent />
       </div>
     </Layout>
