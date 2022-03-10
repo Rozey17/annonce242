@@ -43,7 +43,7 @@ async function uploadImage(image: File) {
 // const phoneRegEx =
 //   /^(?:(?:\+|00)33[\s.-]{0,3}(?:\(0\)[\s.-]{0,3})?|0)[1-9](?:(?:[\s.-]?\d{2}){4}|\d{2}(?:[\s.-]?\d{3}){2})$/;
 
-const CreateAdForm = ({ token }: { token: string }) => {
+export const CreateAdForm = ({ token }: { token: string }) => {
   // export const CreateAdForm = () => {
   const [adSubCategories, setAdSubCategories] = useState([]);
 

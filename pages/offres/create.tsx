@@ -3,10 +3,10 @@ import { Layout } from "@components/layout/layout";
 import axios from "axios";
 import { GetServerSideProps } from "next";
 import nookies from "nookies";
-export default function CreateAd() {
+export default function CreateAd({ token }) {
   return (
     <Layout>
-      <CreateAdForm />
+      <CreateAdForm token={token} />
     </Layout>
   );
 }
