@@ -28,7 +28,7 @@ export const AuthProvider = ({ children }) => {
   }, [user]);
   // Check if user is logged in
   const checkUserLoggedIn = async () => {
-    const res = await fetch("/api/user");
+    const res = await fetch(`${process.env.NEXT_API_URL}/api/user`);
     const data = await res.json();
 
     if (res.ok) {
@@ -39,7 +39,7 @@ export const AuthProvider = ({ children }) => {
   };
 
   const login = async ({ email: identifier, password }) => {
-    const res = await fetch("/api/login", {
+    const res = await fetch(`${process.env.NEXT_API_URL}/api/login`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
@@ -61,7 +61,7 @@ export const AuthProvider = ({ children }) => {
     }
   };
   const logout = async () => {
-    const res = await fetch("/api/logout", {
+    const res = await fetch(`${process.env.NEXT_API_URL}/api/logout`, {
       method: "POST",
     });
 

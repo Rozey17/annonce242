@@ -43,8 +43,8 @@ async function uploadImage(image: File) {
 // const phoneRegEx =
 //   /^(?:(?:\+|00)33[\s.-]{0,3}(?:\(0\)[\s.-]{0,3})?|0)[1-9](?:(?:[\s.-]?\d{2}){4}|\d{2}(?:[\s.-]?\d{3}){2})$/;
 
-// const CreateAdForm = ({ token }: { token: string }) => {
-export const CreateAdForm = () => {
+const CreateAdForm = ({ token }: { token: string }) => {
+  // export const CreateAdForm = () => {
   const [adSubCategories, setAdSubCategories] = useState([]);
 
   useEffect(() => {
@@ -64,8 +64,8 @@ export const CreateAdForm = () => {
           await axios
             .post(`${process.env.API_URL}/ads`, input, {
               headers: {
-                // Authorization: `Bearer ${token}`,
-                "Content-Type": "application/json",
+                Authorization: `Bearer ${token}`,
+                // "Content-Type": "application/json",
               },
             })
             .then((res) => {
